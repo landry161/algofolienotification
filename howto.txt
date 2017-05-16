@@ -1,1 +1,5 @@
+Add cordova platform
+-cordova platform add android
 
+Build project 
+-cordova build android
