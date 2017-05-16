@@ -1,0 +1,15 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Notification {{detail.id}}</h1>
+    <div class="buttons">
+      <button class="button button-positive" ng-click="close()">Fermer</button>
+    </div>
+  </ion-header-bar>
+  <ion-content style="background-color: white;">
+  
+   <div class="list card">
+	<div class="item item-body" ng-bind-html="detail.text">
+    </div>
+</div>
+  </ion-content>
+</ion-modal-view>
